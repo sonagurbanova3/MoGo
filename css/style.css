@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  color: #b6b6b6;
+}
+header {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  color: #95e1d3;
+  margin-top: 17px;
+}
+.services {
+  width: 1168px;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-menu a {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #95e1d3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.nav-menu a::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #f38181;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.2s;
+  transform: scale(0);
+}
+.nav-menu a:hover {
+  color: #f38181;
+}
+.nav-menu a:hover::before {
+  transform: scale(1);
+}
+.nav-menu li {
+  margin-right: 55px;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+h3 {
+  font-family: "Kaushan Script", cursive;
+
+  text-align: center;
+  color: #333333;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  font-variant: small-caps;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.restangle {
+  width: 60px;
+  height: 4px;
+  background-color: #f38181;
+  margin: 0 auto;
+}
+.first-info-block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 1168px;
+  margin: 65px auto 0;
+}
+.first-info-block img {
+  position: absolute;
+  top: 0;
+  left: 28px;
+}
+.first-info-block h4 {
+  line-height: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+}
+.first-info-block p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: 274px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #b6b6b6;
+}
+.first-info-block li {
+  list-style: none;
+  width: 33.33333%;
+  padding: 0 35px 40px 85px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 45px auto 27px;
+  width: 1050px;
+  max-width: 100%;
+  text-align: center;
+  color: #b6b6b6;
+}
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1210px;
+  margin: 0 auto;
+  text-align: center;
+}
+article {
+  width: 33.3%;
+  position: relative;
+}
+article:hover .gradient {
+  opacity: 1;
+  left: -10px;
+  top: -10px;
+}
+.gradient {
+  position: absolute;
+  display: flex;
+  width: 380px;
+  height: 470px;
+  background: linear-gradient(
+    180deg,
+    rgba(239, 139, 138, 0.8) 0%,
+    rgba(229, 207, 130, 0.8) 100%
+  );
+  left: 0px;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  height: 60px;
+}
+.icons a {
+  display: flex;
+  justify-content: center;
+  width: 57px;
+  height: 57px;
+  background: #fce38a;
+  align-items: center;
+}
+.icons a:hover {
+  background-color: #95e1d3;
+}
+.name {
+  font-variant: small-caps;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 11px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+.profession {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #b6b6b6;
+  margin-bottom: 80px;
+}
+.line {
+  border-bottom: 1px solid #b6b6b6;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin-top: 22px;
+}
+footer p span {
+  color: #f38181;
+}
+form {
+  margin-top: 10px;
+}
+input[type="search"] {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding: 10px;
+  border: 1px solid #b6b6b6;
+  width: 230px;
+  height: 39px;
+}
+input[type="submit"] {
+  font-weight: 700;
+  font-variant: small-caps;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: #95e1d3;
+  position: relative;
+  left: -6px;
+}
