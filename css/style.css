@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   color: #b6b6b6;
 }
+/* header */
 header {
   width: 1200px;
   display: flex;
@@ -22,9 +23,7 @@ header {
   color: #95e1d3;
   margin-top: 17px;
 }
-.services {
-  width: 1168px;
-}
+
 .nav-menu {
   list-style: none;
   display: flex;
@@ -61,6 +60,10 @@ header {
   margin-right: 55px;
   margin-top: 32px;
   margin-bottom: 60px;
+}
+/* first section */
+.services {
+  width: 1168px;
 }
 h3 {
   font-family: "Kaushan Script", cursive;
@@ -122,6 +125,7 @@ h2 {
   position: relative;
   margin-bottom: 40px;
 }
+/* second section */
 .text {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -202,6 +206,7 @@ article:hover .gradient {
   color: #b6b6b6;
   margin-bottom: 80px;
 }
+/* footer */
 .line {
   border-bottom: 1px solid #b6b6b6;
 }
