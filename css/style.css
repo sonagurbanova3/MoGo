@@ -89,6 +89,7 @@ h2 {
   height: 4px;
   background-color: #f38181;
   margin: 0 auto;
+  border: none;
 }
 .first-info-block {
   display: flex;
