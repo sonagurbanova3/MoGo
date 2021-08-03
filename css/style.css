@@ -207,13 +207,11 @@ article:hover .gradient {
   margin-bottom: 80px;
 }
 /* footer */
-.line {
-  border-bottom: 1px solid #b6b6b6;
-}
 footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-top: 1px solid #b6b6b6;
 }
 footer p {
   font-size: 14px;
