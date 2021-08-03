@@ -145,11 +145,11 @@ h2 {
   margin: 0 auto;
   text-align: center;
 }
-article {
+.about-us-item {
   width: 33.3%;
   position: relative;
 }
-article:hover .gradient {
+.about-us-item:hover .gradient {
   opacity: 1;
   left: -10px;
   top: -10px;
