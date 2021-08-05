@@ -84,7 +84,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.restangle {
+hr {
   width: 60px;
   height: 4px;
   background-color: #f38181;
@@ -175,10 +175,9 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 230px;
-  height: 60px;
 }
 .icons a {
+  margin-right: 1px;
   display: flex;
   justify-content: center;
   width: 57px;
@@ -210,9 +209,9 @@ h2 {
 /* footer */
 footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid #b6b6b6;
+  padding-bottom: 10px;
 }
 footer p {
   font-size: 14px;
@@ -220,20 +219,27 @@ footer p {
   color: #333333;
   margin-top: 22px;
 }
-footer p span {
+footer a {
   color: #f38181;
+  text-decoration: none;
 }
 form {
   margin-top: 10px;
 }
-input[type="search"] {
-  font-family: "Roboto", sans-serif;
-  font-style: italic;
-  font-weight: 300;
+footer input:focus {
+  outline: none;
+}
+input[type="email"] {
   padding: 10px;
   border: 1px solid #b6b6b6;
   width: 230px;
   height: 39px;
+}
+input[type="email"]::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #b6b6b6;
 }
 input[type="submit"] {
   font-weight: 700;
@@ -243,7 +249,7 @@ input[type="submit"] {
   line-height: 17px;
   text-align: center;
   width: 150px;
-  height: 40px;
+  height: 39px;
   border: none;
   background: #95e1d3;
   position: relative;
